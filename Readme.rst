@@ -33,6 +33,10 @@ Installation
 
       conda install beautifulsoup4
 
+#.  Install git from:
+
+      https://git-scm.com/download/mac
+      
 #.  Clone the repository and cd into it::
 
       git clone https://github.com/phaustin/nws_parse
