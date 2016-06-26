@@ -145,7 +145,7 @@ if __name__ == "__main__":
     #
     files = working_dir.glob('*.html')
     #
-    # write the json file to the working directory
+    # add the json filename in the working directory
     #
     out_json = working_dir.joinpath(args.json)
     print('json file is set to: {}'.format(out_json))
@@ -166,6 +166,9 @@ if __name__ == "__main__":
                 keep_dict = parse_new(soup,htmlfile)
         weeklist.append(keep_dict)
         dump_text(out_file,keep_dict)
+    #
+    # write the json file
+    #
     with open(str(out_json),'w') as f:
         json.dump(weeklist,f,indent=4)
     
