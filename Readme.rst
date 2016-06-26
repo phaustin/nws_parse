@@ -18,22 +18,22 @@ and parse_new for the latter
 Installation
 ============
 
-1.  Download and install miniconda version 3.5 from
+#.  Download and install miniconda version 3.5 from
 
     http://conda.pydata.org/miniconda.html
 
     I install into ~/mini35
 
-1.  Make sure that the mini35 python is ahead of any other python on your machine::
+#.  Make sure that the mini35 python is ahead of any other python on your machine::
 
       which python
       /Users/phil/mini35/bin/python
 
-1.  Install beautifulsoup::
+#.  Install beautifulsoup::
 
       conda install beautifulsoup4
 
-1.  Clone the repository and cd into it::
+#.  Clone the repository and cd into it::
 
       git clone https://github.com/phaustin/nws_parse
       cd nws_parse
@@ -42,7 +42,7 @@ Installation
 Testing
 =======
 
-1.  Check the help for the script::
+#.  Check the help for the script::
 
       ~/repos/nws_parse phil@raild% python read_forecasts.py -h
       usage: read_forecasts.py [-h] [-j JSON] directory
@@ -67,7 +67,7 @@ Testing
       -j JSON, --json JSON  name of json output file. default: temps.json
 
 
-1.  Run the program on the test data::
+#.  Run the program on the test data::
 
       python read_forecasts.py -j bondurant.json  testdata
 
@@ -77,7 +77,7 @@ Testing
       processing:  testdata/160625_10.html
       processing:  testdata/160625_22.html
 
-1.  Check the output::
+#.  Check the output::
 
       > cat testdata/131011_10.txt  | head
       
