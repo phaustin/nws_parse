@@ -35,7 +35,7 @@ Installation
 
 #.  Install git from:
 
-      https://git-scm.com/download/mac
+    https://git-scm.com/download/mac
       
 #.  Clone the repository and cd into it::
 
