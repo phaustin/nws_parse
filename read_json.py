@@ -2,9 +2,11 @@
 example read for json file
 """
 import json
+from collections import OrderedDict
+
 filename = 'testdata/bondurant.json'
 with open(filename,'r') as f:
-    week_list = json.load(f)
+    week_list = json.load(f,object_pairs_hook=OrderedDict)
 
 #
 # print valid forecast periods for each week
