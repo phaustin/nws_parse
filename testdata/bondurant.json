@@ -1,0 +1,92 @@
+[
+    {
+        "filename": "testdata/131011_10.html",
+        "placename": "9 Miles N Bondurant WY",
+        "location": "43.34 deg N 110.43 deg W (Elev. 7049 ft)",
+        "last_update": "9:41 am MDT Oct 11, 2013",
+        "valid": "11am MDT Oct 11, 2013-6pm MDT Oct 17, 2013",
+        "temps": {
+            "Today": 43,
+            "Tonight": 25,
+            "Saturday": 47,
+            "Saturday Night": 29,
+            "Sunday": 47,
+            "Sunday Night": 31,
+            "Columbus Day": 41,
+            "Monday Night": 26,
+            "Tuesday": 43,
+            "Tuesday Night": 25,
+            "Wednesday": 44,
+            "Wednesday Night": 28,
+            "Thursday": 45
+        }
+    },
+    {
+        "filename": "testdata/131011_22.html",
+        "placename": "9 Miles N Bondurant WY",
+        "location": "43.34 deg N 110.43 deg W (Elev. 7049 ft)",
+        "last_update": "8:56 pm MDT Oct 11, 2013",
+        "valid": "11pm MDT Oct 11, 2013-6pm MDT Oct 18, 2013",
+        "temps": {
+            "Overnight": 25,
+            "Saturday": 48,
+            "Saturday Night": 29,
+            "Sunday": 47,
+            "Sunday Night": 30,
+            "Columbus Day": 42,
+            "Monday Night": 25,
+            "Tuesday": 43,
+            "Tuesday Night": 23,
+            "Wednesday": 44,
+            "Wednesday Night": 26,
+            "Thursday": 44,
+            "Thursday Night": 24,
+            "Friday": 44
+        }
+    },
+    {
+        "filename": "testdata/160625_10.html",
+        "placename": "9 Miles N Bondurant WY",
+        "location": "43.34 deg N 110.43 deg W (Elev. 7051 ft)",
+        "last_update": "8:41 am MDT Jun 25, 2016",
+        "valid": "10am MDT Jun 25, 2016-6pm MDT Jul 1, 2016",
+        "temps": {
+            "Today": 69,
+            "Tonight": 34,
+            "Sunday": 76,
+            "Sunday Night": 38,
+            "Monday": 80,
+            "Monday Night": 43,
+            "Tuesday": 82,
+            "Tuesday Night": 44,
+            "Wednesday": 81,
+            "Wednesday Night": 46,
+            "Thursday": 80,
+            "Thursday Night": 46,
+            "Friday": 78
+        }
+    },
+    {
+        "filename": "testdata/160625_22.html",
+        "placename": "9 Miles N Bondurant WY",
+        "location": "43.34 deg N 110.43 deg W (Elev. 7051 ft)",
+        "last_update": "7:56 pm MDT Jun 25, 2016",
+        "valid": "10pm MDT Jun 25, 2016-6pm MDT Jul 2, 2016",
+        "temps": {
+            "Tonight": 32,
+            "Sunday": 76,
+            "Sunday Night": 37,
+            "Monday": 81,
+            "Monday Night": 42,
+            "Tuesday": 83,
+            "Tuesday Night": 43,
+            "Wednesday": 81,
+            "Wednesday Night": 45,
+            "Thursday": 79,
+            "Thursday Night": 45,
+            "Friday": 78,
+            "Friday Night": 46,
+            "Saturday": 79
+        }
+    }
+]
